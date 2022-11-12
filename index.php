@@ -12,9 +12,7 @@
 <body>
     <?php include './templates/navbar.php' ?>
     <?php include './pages/home.php'?>
-    <?php include './pages/about.php'?>
-    <?php include './pages/course.php'?>
-    <?php include './pages/skills.php' ?>
+
 </body>
 
 </html>
