@@ -11,10 +11,10 @@
 
 <body>
     <?php include './templates/navbar.php' ?>
-    <?php include './services/home.php'?>
-    <?php include './services/about.php'?>
-    <?php include './services/course.php'?>
-    <?php include './services/skills.php' ?>
+    <?php include './pages/home.php'?>
+    <?php include './pages/about.php'?>
+    <?php include './pages/course.php'?>
+    <?php include './pages/skills.php' ?>
 </body>
 
 </html>
