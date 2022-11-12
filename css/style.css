@@ -215,7 +215,7 @@ header .navbar ul li a:hover{
     width:27rem;
     margin-top: 1.2rem;
     padding-left: 2rem;
-    border-left: .2rem solid #fff;
+    border-left: .2rem solid #f9ca24;
     position: relative;
 }
 
@@ -239,18 +239,6 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
-.about .box-container .box i{
-    position: absolute;
-    top:-1.5rem; left:-2.5rem;
-    height:5rem;
-    width: 5rem;
-    border-radius: 50%;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    color:#fff;
-    background:var(--yellow);
-}
 
 
 
@@ -270,9 +258,10 @@ header .navbar ul li a:hover{
 
 .course .box-container .box{
     width:27rem;
+    height: 20rem;
     margin:4rem 1rem;
     padding-left: 4rem;
-    border-left: .2rem solid #fff;
+    border-left: .2rem solid #f9ca24;
     position: relative;
 }
 
@@ -296,18 +285,7 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
-.course .box-container .box i{
-    position: absolute;
-    top:-1.5rem; left:-2.5rem;
-    height:5rem;
-    width: 5rem;
-    border-radius: 50%;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    color:#fff;
-    background:var(--yellow);
-}
+
 
 .skill .box-container{
     display: flex;

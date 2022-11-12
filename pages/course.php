@@ -1,22 +1,30 @@
-<html>
+<?php
+require("./database/config.php");
 
+$selectCourse="SELECT * FROM courses";
+
+$resultCourse=$conn->query($selectCourse);
+
+?>
+
+<html>
 <!-- course section starts  -->
 
 <section class="course" id="course">
-    <h1 class="heading">my <span>courses</span></h1>
+    <h1 class="heading">My <span>courses</span></h1>
 
-    <!-- <div class="box-container">
+    <div class="box-container">
+        <?php foreach($resultCourse as $course){?>
         <div class="box">
-            <i class="fas fa-graduation-cap"></i>
-            <span>2016</span>
-            <h3>front end development</h3>
+            <span><?php echo $course['start_data'].' - '.$course['end_data'] ?></span>
+            <h3><?php echo $course['course_name'].' - '.$course['place']?></h3>
             <p>
-                BLBLBLBLBLBBLLBLBL
+                <?php  echo $course['description']?>
             </p>
         </div>
+        <?php }?>
 
-
-    </div> -->
+    </div>
 </section>
 
 <!-- course section ends -->
