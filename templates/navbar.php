@@ -22,7 +22,7 @@
                 <li><a href="#home">home</a></li>
                 <li><a href="#about">about</a></li>
                 <li><a href="#course">courses</a></li>
-                <li><a href="#skill">skills</a></li>
+                <li><a href="#repository">repositories</a></li>
                 <li><a href="#contact">contact</a></li>
             </ul>
         </nav>

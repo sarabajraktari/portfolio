@@ -213,30 +213,24 @@ header .navbar ul li a:hover{
 
 .about .box-container .box{
     width:27rem;
-    margin-top: 1.2rem;
-    padding-left: 2rem;
-    border-left: .2rem solid #f9ca24;
+    margin-top: 1rem;
     position: relative;
 }
 
 .about .box-container .box span{
     font-size: 1.3rem;
-    background:#222;
     color:#fff;
     border-radius: 5rem;
-    padding:.5rem 2.5rem;
 }
 
 .about .box-container .box h3{
     font-size: 2rem;
     color:#fff;
-    padding-top: 1.5rem;
 }
 
 .about .box-container .box p{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color:#eee;
-    padding: 1rem 0;
 }
 
 
@@ -287,7 +281,7 @@ header .navbar ul li a:hover{
 
 
 
-.skill .box-container{
+.repository .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -295,25 +289,59 @@ header .navbar ul li a:hover{
     padding:2rem 0;
 }
 
-.skill .box-container .box{
-    height: 20rem;
+.repository .box-container .box{
+    height: 15rem;
     width:26rem;
     border-radius: 1rem;
     margin:2rem;
     overflow: hidden;
-    cursor: pointer;
+    /* cursor: pointer; */
+    background-color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.repository .box-container .box-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+
+}
+.repository .box-container .box-icons .img-style{
+    width: 7%;
+    height: 7%;
+    margin: 1rem;
+    border-radius: 30%;
 }
 
-.skill .box-container .box img{
-    height:100%;
-    width:100%;
-    object-fit: cover;
+.repository .box-container .box h3{
+    font-size: 2rem;
+    color:#f9ca24;
 }
 
-.skill .box-container .box:hover img{
-    transform: scale(1.2);
+.repository .box-container .box p{
+    font-size: 1.4rem;
+    color:#fff;
+    padding: .1rem 0;
 }
 
+.repository .box-container .box a{
+    font-size: 2rem;
+    color:#f9ca24;
+}
+
+.repository .heading2{
+    font-size: 3rem;
+    color:#fff;
+    border-bottom: .1rem solid #fff4;
+    margin:0 0;
+    padding:1rem;
+    width: 40%;
+    margin:0 6rem;
+}
 .contact .row{
     display: flex;
     align-items: center;
@@ -443,7 +471,7 @@ header .navbar ul li a:hover{
         width:100%;
     }
 
-    .skill .box-container .box{
+    .repository .box-container .box{
         width:100%;
     }
 
