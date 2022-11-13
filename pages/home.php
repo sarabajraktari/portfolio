@@ -26,11 +26,7 @@ $result=$conn->query($select);
         <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
     </section>
 
-    <!-- jquery cdn link  -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-
-    <!-- custom js file link  -->
-    <!-- <script src="script.js"></script> -->
+    <!-- home section end -->
 </body>
 
 </html>

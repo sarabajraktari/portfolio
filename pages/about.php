@@ -18,6 +18,7 @@ $resultEdu=$conn->query($selectEducation);
 <section class="about" id="about">
     <h1 class="heading"><span>About</span> me</h1>
 
+    <!-- User Information -->
     <div class="row">
         <?php
        
@@ -52,6 +53,10 @@ $resultEdu=$conn->query($selectEducation);
                     }
                     ?>
     </div>
+
+    <!-- End user Information -->
+
+    <!-- Language and Education information -->
     <div class="row">
 
         <div class="info">
@@ -69,19 +74,20 @@ $resultEdu=$conn->query($selectEducation);
             <?php }?>
 
         </div>
+
         <div class="info">
 
             <h1 class="heading2">Education</h1>
             <?php
-            foreach($resultEdu as $language){
+            foreach($resultEdu as $education){
                 ?>
 
             <div class="box-container">
                 <div class="box">
-                    <span><?php echo $language['start_year'].' - '.$language['end_year'] ?> </span>
-                    <h3><?php echo $language['city'].', '.$language['country']?></h3>
+                    <span><?php echo $education['start_year'].' - '.$education['end_year'] ?> </span>
+                    <h3><?php echo $education['city'].', '.$education['country']?></h3>
                     <p>
-                        <?php  echo $language['school_name'].', '.$language['major']?>
+                        <?php  echo $education['school_name'].', '.$education['major']?>
                     </p>
                 </div>
 
@@ -90,6 +96,8 @@ $resultEdu=$conn->query($selectEducation);
             </div>
         </div>
     </div>
+
+    <!-- End -->
 
 </section>
 

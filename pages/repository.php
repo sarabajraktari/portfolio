@@ -14,8 +14,9 @@
 <head>
 </head>
 <section class="repository" id="repository">
-    <h1 class="heading">My <span>repositories</span></h1>
 
+    <!-- Repositories info -->
+    <h1 class="heading">My <span>repositories</span></h1>
     <div class="box-container">
         <?php foreach($resultProject as $project){ ?>
         <div class="box">
@@ -26,6 +27,8 @@
         </div>
         <?php }?>
     </div>
+
+    <!-- Skills info -->
     <h1 class="heading2">My skills</h1>
     <div class="box-container">
         <div class="box-icons">
