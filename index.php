@@ -15,6 +15,7 @@
     <?php include './pages/about.php'?>
     <?php include './pages/course.php'?>
     <?php include './pages/repository.php' ?>
+    <?php include './pages/experience.php'?>
 
 </body>
 
